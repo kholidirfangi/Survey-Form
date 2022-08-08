@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 1500px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #be57fa;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background: gray;
+  margin: 20px auto 20px;
+  padding: 20px;
+  border-radius: 12px;
+  color: #e6cef5;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+input:focus {
+  outline: 2px solid #e6cef5;
+}
+
+.name,
+.date {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+[type='radio'],
+[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #be57fa;
+}
+
+[type='text'],
+[type='number'] {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.tax,
+.social-security-number {
+  width: 25%;
+}
+
+.number {
+  width: 350px;
+  height: 35px;
+}
+
+.citizen,
+.country,
+.day-phone,
+.evening-phone,
+.address-1,
+.address-2,
+.city {
+  width: 49%;
+}
+
+.state,
+.code {
+  width: 24%;
+}
+
+.label {
+  margin-left: 24px;
+}
+
+.h-2 {
+  height: 100px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding-top: 30px;
+}
+
+.continue {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background: #be57fa;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 30px;
+  border-radius: 2px;
+  color: white;
+}
+
+.continue:hover, .back:hover {
+  opacity: 0.8;
+}
+
+.back {
+  width: 200px;
+  height: 50px;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 30px;
+   border-radius: 2px;
+}
+}

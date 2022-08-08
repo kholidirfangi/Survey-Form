@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h2>Please fill in your information</h2>
+
+    <form action="#">
+      <div class="container">
+        <label for="name">Your Full Name</label>
+        <input
+          class="name"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your fullname"
+        />
+        <div>
+          <label for="date">Date of Birth</label>
+          <input class="date" type="date" id="date" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="tax">
+          <input type="radio" name="id-number" id="tax" value="tax" />
+          <label class="label" for="tax">Tax ID</label>
+        </div>
+        <div class="social-security-number">
+          <input
+            type="radio"
+            name="id-number"
+            id="social-security-number"
+            value="social-security-number"
+          />
+          <label class="label" for="social-security-number">
+            Social Security Number
+          </label>
+        </div>
+        <div>
+          <input
+            class="number"
+            type="number"
+            placeholder="Enter your social security number"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="citizen">
+          <p>
+            <label for="citizen">Citizenship</label>
+          </p>
+          <input type="text" placeholder="UC Citizen" id="citizen" />
+        </div>
+        <div class="country">
+          <p><label for="country">Country</label></p>
+          <input type="text" placeholder="United State" id="country" />
+        </div>
+        <div class="day-phone">
+          <p>
+            <label for="day-phone">Day Phone</label>
+          </p>
+          <input type="number" placeholder="(xxx) xxx-xxxx" id="day-phone" />
+        </div>
+        <div class="evening-phone">
+          <p><label for="evening-phone">Evening Phone</label></p>
+          <input
+            type="number"
+            placeholder="(xxx) xxx-xxxx"
+            id="evening-phone"
+          />
+        </div>
+        <div class="address-1">
+          <p>
+            <label for="address-1">Address Line 1</label>
+          </p>
+          <input type="number" placeholder="(xxx) xxx-xxxx" id="address-1" />
+        </div>
+        <div class="address-2">
+          <p><label for="address-2">Address Line 2</label></p>
+          <input
+            type="number"
+            placeholder="(xxx) xxx-xxxx"
+            id="evening-phone"
+          />
+        </div>
+        <div class="city">
+          <p><label for="city">City</label></p>
+          <input type="number" placeholder="(xxx) xxx-xxxx" id="city" />
+        </div>
+        <div class="state">
+          <p><label for="state">City</label></p>
+          <input type="number" id="state" />
+        </div>
+        <div class="code">
+          <p><label for="code">City</label></p>
+          <input type="text" id="code" />
+        </div>
+      </div>
+      <div class="container h-2">
+        <div>
+          <input
+            id="choice"
+            type="radio"
+            name="choice"
+            value="Subject to backup withholding"
+          />
+          <label class="label" for="choice">
+            Subject to backup withholding
+          </label>
+        </div>
+        <div>
+          <input
+            id="choice"
+            type="radio"
+            name="choice"
+            value=" I want to reinvest my divident"
+          />
+          <label class="label" for="choice">
+            I want to reinvest my divident
+          </label>
+        </div>
+      </div>
+      <div class="container h-2">
+        <input type="checkbox" />
+        <label class="label" for="">+Add optional mailing address</label>
+      </div>
+      <div class="container-button">
+        <button class="continue">Continue</button>
+        <button class="back">Back</button>
+      </div>
+    </form>
+  </body>
+</html>
